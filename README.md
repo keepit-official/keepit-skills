@@ -1,6 +1,6 @@
 # Keepit AI Skills
 
-AI skills for analyzing and monitoring your Keepit backup environment through natural language. Built for use with the [Keepit MCP Server](https://github.com/keepit-official/keepit-mcp) and any MCP-compatible AI client.
+Agent skills for analyzing and monitoring your Keepit backup environment — just by asking. Built for use with the [Keepit MCP Server](https://github.com/keepit-official/keepit-mcp) and any MCP-compatible AI client.
 
 ---
 
