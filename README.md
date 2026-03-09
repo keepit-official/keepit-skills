@@ -40,31 +40,31 @@ All skills require the **Keepit MCP Server** to be running and connected to your
 
 | Skill | Folder | What It Does |
 |-------|--------|-------------|
-| **Account Health Reporter** | [`keepit-account-health`](keepit-account-health/) | Checks overall environment health — account status, connector configuration, backup freshness, and health scores across all protected applications. |
-| **Job History Analyzer** | [`keepit-job-history-analyzer`](keepit-job-history-analyzer/) | Analyzes backup job success/failure rates, identifies failure patterns, examines performance trends, and checks SLA compliance over configurable time periods. |
-| **Weekly Operations Digest** | [`keepit-weekly-operations-digest`](keepit-weekly-operations-digest/) | Generates a structured weekly summary of all backup activity — job metrics, failures, configuration changes, continuity gaps, and prioritized action items. |
+| **Account Health Reporter** | [`keepit-account-health`](skills/keepit-account-health/) | Checks overall environment health — account status, connector configuration, backup freshness, and health scores across all protected applications. |
+| **Job History Analyzer** | [`keepit-job-history-analyzer`](skills/keepit-job-history-analyzer/) | Analyzes backup job success/failure rates, identifies failure patterns, examines performance trends, and checks SLA compliance over configurable time periods. |
+| **Weekly Operations Digest** | [`keepit-weekly-operations-digest`](skills/keepit-weekly-operations-digest/) | Generates a structured weekly summary of all backup activity — job metrics, failures, configuration changes, continuity gaps, and prioritized action items. |
 
 ### Investigation & Troubleshooting
 
 | Skill | Folder | What It Does |
 |-------|--------|-------------|
-| **Backup Failure Root Cause Analyzer** | [`keepit-backup-failure-root-cause-analyzer`](keepit-backup-failure-root-cause-analyzer/) | Investigates why a backup failed by correlating job errors with audit log changes, health status, and snapshot gaps. Classifies failure type and provides resolution steps. |
-| **Snapshot Gap & Continuity Analyzer** | [`keepit-snapshot-analyzer`](keepit-snapshot-analyzer/) | Detects gaps in backup coverage, measures RPO compliance, and projects storage growth trends. |
+| **Backup Failure Root Cause Analyzer** | [`keepit-backup-failure-root-cause-analyzer`](skills/keepit-backup-failure-root-cause-analyzer/) | Investigates why a backup failed by correlating job errors with audit log changes, health status, and snapshot gaps. Classifies failure type and provides resolution steps. |
+| **Snapshot Gap & Continuity Analyzer** | [`keepit-snapshot-analyzer`](skills/keepit-snapshot-analyzer/) | Detects gaps in backup coverage, measures RPO compliance, and projects storage growth trends. |
 
 ### Security & Compliance
 
 | Skill | Folder | What It Does |
 |-------|--------|-------------|
-| **Security Incident Investigator** | [`keepit-security-incident-investigator`](keepit-security-incident-investigator/) | Reconstructs security incident timelines from audit logs, detects attack patterns (credential compromise, data exfiltration, config tampering), and scores incident severity. |
-| **Compliance Audit Log Extractor** | [`keepit-compliance-audit-log`](keepit-compliance-audit-log/) | Formats audit trails for regulatory frameworks — GDPR, HIPAA, ISO 27001, NIS2, SOC 2. Prepares evidence packages for external audits. |
-| **Retention Policy Auditor** | [`keepit-retention-policy-auditor`](keepit-retention-policy-auditor/) | Validates that retention policies comply with regulatory requirements (GDPR, NIS2, DORA, HIPAA, SOX), tracks policy changes, and verifies actual enforcement. |
+| **Security Incident Investigator** | [`keepit-security-incident-investigator`](skills/keepit-security-incident-investigator/) | Reconstructs security incident timelines from audit logs, detects attack patterns (credential compromise, data exfiltration, config tampering), and scores incident severity. |
+| **Compliance Audit Log Extractor** | [`keepit-compliance-audit-log`](skills/keepit-compliance-audit-log/) | Formats audit trails for regulatory frameworks — GDPR, HIPAA, ISO 27001, NIS2, SOC 2. Prepares evidence packages for external audits. |
+| **Retention Policy Auditor** | [`keepit-retention-policy-auditor`](skills/keepit-retention-policy-auditor/) | Validates that retention policies comply with regulatory requirements (GDPR, NIS2, DORA, HIPAA, SOX), tracks policy changes, and verifies actual enforcement. |
 
 ### Executive & Strategic
 
 | Skill | Folder | What It Does |
 |-------|--------|-------------|
-| **Executive Backup Summary** | [`keepit-executive-backup-summary`](keepit-executive-backup-summary/) | Translates backup data into business language with a Protection Score (0–100), plain-English risk descriptions, and a board-ready summary. Designed for CIO/CTO reporting. |
-| **Restore Readiness Assessor** | [`keepit-restore-readiness-assessor`](keepit-restore-readiness-assessor/) | Evaluates whether you could actually recover your data right now. Produces an A–F readiness grade based on health, backup freshness, continuity, and historical restore performance. |
+| **Executive Backup Summary** | [`keepit-executive-backup-summary`](skills/keepit-executive-backup-summary/) | Translates backup data into business language with a Protection Score (0–100), plain-English risk descriptions, and a board-ready summary. Designed for CIO/CTO reporting. |
+| **Restore Readiness Assessor** | [`keepit-restore-readiness-assessor`](skills/keepit-restore-readiness-assessor/) | Evaluates whether you could actually recover your data right now. Produces an A–F readiness grade based on health, backup freshness, continuity, and historical restore performance. |
 
 ## Getting Started
 
