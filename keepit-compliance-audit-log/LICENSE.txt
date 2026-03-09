@@ -19,3 +19,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+This skill is designed to work with the Keepit MCP Server and requires:
+- Access to Keepit MCP v1 API
+- Proper authentication and authorization for Keepit account
+- Python 3.8 or higher (for utility scripts)
+
+COMPLIANCE NOTICE:
+This skill assists with compliance reporting but does not constitute legal advice.
+Users are responsible for ensuring their compliance practices meet applicable
+regulatory requirements. Consult with legal counsel for compliance guidance.
+
+For more information about Keepit, visit: https://www.keepit.com
+For Keepit API documentation, visit: https://help.keepit.com
